@@ -43,9 +43,9 @@ weight = 4
 
 [params]
 
-  colortheme = "white" # dark, light, white, or classic
+  colortheme = "dark" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
   logo = "static/images/favicon.svg"
   # Home page settings
@@ -62,6 +62,7 @@ weight = 4
   # Post page settings
   show_updated = true # default
   showReadTime = true # default
+  css = ["css/custom.css"]
 
   [params.comments]
     enabled = false # default
